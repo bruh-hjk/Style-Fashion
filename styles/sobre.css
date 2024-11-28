@@ -1,0 +1,119 @@
+/* Estilo básico */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.navbar {
+  background-color: #bd6a3a;
+  color: white;
+  padding: 10px;
+
+}
+
+.navbar>div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.fonte-da-logo {
+  margin-left: 4rem;
+  color: #000000;
+}
+
+nav ul li {
+  color: aliceblue;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+nav ul li:hover {
+  transform: translateY(-5px);
+  transition: all 0.2s;
+  font-weight: bold;
+}
+
+.navbar nav ul {
+  list-style-type: none;
+  display: inline;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.navbar nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+
+
+footer .rodape h1 {
+  font-size: 30px;
+  margin: 0;
+}
+
+footer .numero p,
+footer .objetivos ul {
+  margin: 5px 0;
+}
+
+footer .objetivos ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer .linha {
+  margin-top: 20px;
+}
+
+.page-inner-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  color: #333;
+}
+
+h3 {
+  color: #000000;
+}
+
+ul {
+  margin-left: 20px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+/*fonte logo*/
+@font-face {
+  font-family: 'Moglan';
+  src: url("../fonte-logo/Moglan_DEMO.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.fonte-da-logo {
+  font-family: 'Moglan', Arial, sans-serif;
+}

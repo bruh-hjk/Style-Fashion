@@ -1,0 +1,108 @@
+/* Reseta margens e estilos padrões */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fonte e cores gerais */
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/fotos-site/smiley-businesswoman-saluting-someone.png");
+  color: #000000;
+  line-height: 1.5;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+
+
+/* Cabeçalho com botão */
+.header {
+
+  padding: 10px 20px;
+  text-align: right;
+
+
+}
+
+
+
+.btn-cartao {
+  background-color: #fff;
+  color: #000000;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+
+}
+
+a {
+  text-decoration: none;
+  color: #9c008f;
+}
+
+.btn-cartao:hover {
+  background-color: #f0f0f0;
+}
+
+/* Conteúdo principal */
+.main-content {
+  text-align: center;
+  padding: 20px;
+
+  color: rgb(106, 183, 214);
+}
+
+.main-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Opções de contato */
+.contact-options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background-color: #fff;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.option {
+  text-align: center;
+}
+
+.icon {
+  font-size: 30px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.contact-link {
+  color: #9c008f;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact-link:hover {
+  text-decoration: underline;
+}
+
+/* Responsividade */
+@media (min-width: 768px) {
+  .contact-options {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
